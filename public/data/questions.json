@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "type": "number_series",
+    "difficulty": 1,
+    "image": null,
+    "question": "What comes next in the series: 2, 6, 12, 20, ?",
+    "options": ["24", "28", "30", "36"],
+    "answer": "30"
+  },
+  {
+    "id": 2,
+    "type": "analogy",
+    "difficulty": 1,
+    "image": null,
+    "question": "Hand is to glove as foot is to ___?",
+    "options": ["sock", "shoe", "sand", "boot"],
+    "answer": "shoe"
+  },
+  {
+    "id": 3,
+    "type": "classification",
+    "difficulty": 1,
+    "image": null,
+    "question": "Which of the following does not belong?",
+    "options": ["Circle", "Square", "Triangle", "Banana"],
+    "answer": "Banana"
+  },
+  {
+    "id": 4,
+    "type": "logic",
+    "difficulty": 1,
+    "image": null,
+    "question": "If all dogs bark, and Rex is a dog, does Rex bark?",
+    "options": ["Yes", "No", "Cannot say", "Only sometimes"],
+    "answer": "Yes"
+  },
+  {
+    "id": 5,
+    "type": "pattern",
+    "difficulty": 1,
+    "image": "https://www.aptitudeprep.com/content/images/2021/04/logical-reasoning-1-free-practice-test-question-1.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "type": "number_series",
+    "difficulty": 1,
+    "image": null,
+    "question": "Find the missing number: 3, 6, 12, 24, ?",
+    "options": ["36", "40", "44", "48"],
+    "answer": "48"
+  },
+  {
+    "id": 7,
+    "type": "pattern",
+    "difficulty": 1,
+    "image": "https://www.aptitudeprep.com/content/images/2021/04/logical-reasoning-1-free-practice-test-question-2.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "type": "analogy",
+    "difficulty": 1,
+    "image": null,
+    "question": "Tree is to forest as star is to ___?",
+    "options": ["sky", "galaxy", "night", "light"],
+    "answer": "galaxy"
+  },
+  {
+    "id": 9,
+    "type": "classification",
+    "difficulty": 2,
+    "image": null,
+    "question": "Which of these is least like the others?",
+    "options": ["Dog", "Cat", "Cow", "Car"],
+    "answer": "Car"
+  },
+  {
+    "id": 10,
+    "type": "logic",
+    "difficulty": 2,
+    "image": null,
+    "question": "Some fruits are apples. All apples are sweet. Therefore:",
+    "options": [
+      "All fruits are sweet",
+      "Some fruits are sweet",
+      "No fruits are sweet",
+      "Cannot say"
+    ],
+    "answer": "Some fruits are sweet"
+  },
+  {
+    "id": 11,
+    "type": "spatial",
+    "difficulty": 2,
+    "image": "https://www.aptitudeprep.com/content/images/2021/04/logical-reasoning-1-free-practice-test-question-3.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "type": "pattern",
+    "difficulty": 2,
+    "image": "https://www.aptitudeprep.com/content/images/2021/04/logical-reasoning-1-free-practice-test-question-4.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "type": "number_series",
+    "difficulty": 2,
+    "image": null,
+    "question": "Find the missing number: 1, 4, 9, 16, 25, ?",
+    "options": ["30", "35", "36", "40"],
+    "answer": "36"
+  },
+  {
+    "id": 14,
+    "type": "logic",
+    "difficulty": 2,
+    "image": null,
+    "question": "If 2 cats catch 2 mice in 2 minutes, how many cats catch 100 mice in 100 minutes?",
+    "options": ["2", "50", "100", "1"],
+    "answer": "2"
+  },
+  {
+    "id": 15,
+    "type": "pattern",
+    "difficulty": 2,
+    "image": "https://www.aptitudeprep.com/content/images/2021/04/logical-reasoning-1-free-practice-test-question-5.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C"
+  },
+  {
+    "id": 16,
+    "type": "classification",
+    "difficulty": 2,
+    "image": null,
+    "question": "Which word does not belong?",
+    "options": ["Mercury", "Venus", "Mars", "Sun"],
+    "answer": "Sun"
+  },
+  {
+    "id": 17,
+    "type": "spatial",
+    "difficulty": 2,
+    "image": "https://image.mconsultingprep.com/fit-in/1000x1000/case_thumb/1669618157354_1.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "type": "number_series",
+    "difficulty": 2,
+    "image": null,
+    "question": "Find the next number: 5, 10, 20, 40, ?",
+    "options": ["60", "70", "80", "100"],
+    "answer": "80"
+  },
+  {
+    "id": 19,
+    "type": "analogy",
+    "difficulty": 2,
+    "image": null,
+    "question": "Puppy is to dog as kitten is to ___?",
+    "options": ["lion", "cat", "cub", "tiger"],
+    "answer": "cat"
+  },
+  {
+    "id": 20,
+    "type": "pattern",
+    "difficulty": 2,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9o1LhoaHtCo8z94NXSBCfcV3kLixnB8pzUhkxvA3fNzqzGsEAr5FknmC1KMkMPsRIn5o&usqp=CAU",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "type": "logic",
+    "difficulty": 3,
+    "image": null,
+    "question": "If some A are B and all B are C, which statement is true?",
+    "options": [
+      "All A are C",
+      "Some A are C",
+      "No A are C",
+      "Cannot be determined"
+    ],
+    "answer": "Some A are C"
+  },
+  {
+    "id": 22,
+    "type": "pattern",
+    "difficulty": 3,
+    "image": "https://testttalent.dk/wp-content/uploads/2021/09/cubiks-logisk--1030x466.png",
+    "question": "Which pattern completes the grid?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D"
+  },
+  {
+    "id": 23,
+    "type": "number_series",
+    "difficulty": 3,
+    "image": null,
+    "question": "Find the next number: 2, 3, 5, 8, 12, ?",
+    "options": ["15", "16", "17", "18"],
+    "answer": "17"
+  },
+  {
+    "id": 24,
+    "type": "classification",
+    "difficulty": 3,
+    "image": null,
+    "question": "Which of these does not fit?",
+    "options": ["Copper", "Iron", "Silver", "Plastic"],
+    "answer": "Plastic"
+  },
+  {
+    "id": 25,
+    "type": "spatial",
+    "difficulty": 3,
+    "image": "https://www.freshersnow.com/wp-content/uploads/2018/05/Figure-Matrix-Image-1.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "type": "logic",
+    "difficulty": 3,
+    "image": null,
+    "question": "If 5 machines make 5 items in 5 minutes, how long for 100 machines to make 100 items?",
+    "options": ["5 min", "10 min", "100 min", "1 min"],
+    "answer": "5 min"
+  },
+  {
+    "id": 27,
+    "type": "pattern",
+    "difficulty": 3,
+    "image": "https://www.careerride.com/images/Aptitude/figure-matrix-10.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D"
+  },
+  {
+    "id": 28,
+    "type": "spatial",
+    "difficulty": 3,
+    "image": "https://www.careerride.com/images/Aptitude/figure-matrix-6.png",
+    "question": "Which of the boxes comes next ?",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "type": "number_series",
+    "difficulty": 3,
+    "image": null,
+    "question": "Find the missing number: 1, 1, 2, 3, 5, 8, ?",
+    "options": ["11", "12", "13", "14"],
+    "answer": "13"
+  },
+  {
+    "id": 30,
+    "type": "logic",
+    "difficulty": 3,
+    "image": null,
+    "question": "If all squares are rectangles and no rectangle is a circle, can a square be a circle?",
+    "options": ["Yes", "No", "Maybe", "Only sometimes"],
+    "answer": "No"
+  }
+]
