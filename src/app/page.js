@@ -95,7 +95,12 @@ export default function IQTestPage() {
   }
 
   return (
+    <>
+    <nav className="bg-white px-4 py-2 absolute top-0 right-0 left-0 w-full z-10">
+        <Image src={'/img/logo.png'} alt="logo" height={30} width={30} className="rounded-full"></Image>
+      </nav>
     <div className="flex flex-col items-center justify-center min-h-screen p-6 text-center bg-gray-50">
+      
       <AnimatePresence mode="wait">
         {/* 🏠 Home */}
         {stage === "home" && (
@@ -239,5 +244,6 @@ export default function IQTestPage() {
         )}
       </AnimatePresence>
     </div>
+    </>
   );
 }
