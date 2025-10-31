@@ -72,7 +72,7 @@ export default function IQTestPage() {
  const shareResult = async () => {
   const data = { username, iqScore, category: getCategory(iqScore), gender };
   const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), SECRET_KEY).toString();
-  const url = `${window.location.origin}/quiz?data=${encodeURIComponent(encrypted)}`;
+  const url = `${window.location.origin}/iq?data=${encodeURIComponent(encrypted)}`;
 
   try {
     // 1️⃣ Use Web Share API (works perfectly on mobile)
