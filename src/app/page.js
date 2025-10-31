@@ -72,7 +72,7 @@ export default function IQTestPage() {
  const shareResult = async () => {
   const data = { username, iqScore, category: getCategory(iqScore), gender };
   const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), SECRET_KEY).toString();
-  const url = `${window.location.origin}/iq?data=${encodeURIComponent(encrypted)}`;
+  const url = `${window.location.origin}?data=${encodeURIComponent(encrypted)}`;
 
   try {
     // 1️⃣ Use Web Share API (works perfectly on mobile)
@@ -262,7 +262,7 @@ export default function IQTestPage() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -40 }}
             transition={{ duration: 0.4 }}
-            className="flex flex-col items-center"
+            className="flex flex-col items-center gap-4"
           >
           <Image src={(sharedResult.gender == 'Male')?'/img/male.png':'/img/female.png'} alt="user-profile" height={150} width={150} className="rounded-full"></Image>
             <h1 className="text-3xl font-bold mb-2">
