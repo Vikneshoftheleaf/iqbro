@@ -69,13 +69,43 @@ export default function IQTestPage() {
   };
 
   // 🔗 Share link
-  const shareResult = () => {
-    const data = { username, iqScore, category: getCategory(iqScore), gender };
-    const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), SECRET_KEY).toString();
-    const url = `${window.location.origin}/iq?data=${encodeURIComponent(encrypted)}`;
-    navigator.clipboard.writeText(url);
-    alert("Link copied! Share it with friends.");
-  };
+ const shareResult = async () => {
+  const data = { username, iqScore, category: getCategory(iqScore), gender };
+  const encrypted = CryptoJS.AES.encrypt(JSON.stringify(data), SECRET_KEY).toString();
+  const url = `${window.location.origin}/quiz?data=${encodeURIComponent(encrypted)}`;
+
+  try {
+    // 1️⃣ Use Web Share API (works perfectly on mobile)
+    if (navigator.share) {
+      await navigator.share({
+        title: `${username}'s IQ Score`,
+        text: `Check out my IQ result: ${iqScore} (${getCategory(iqScore)})`,
+        url,
+      });
+      return;
+    }
+
+    // 2️⃣ Fallback: copy to clipboard (desktop)
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(url);
+      alert("Link copied! Share it with friends.");
+    } else {
+      // 3️⃣ Ultimate fallback (mobile Safari, insecure contexts)
+      const textarea = document.createElement("textarea");
+      textarea.value = url;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      alert("Link copied! Share it manually if needed.");
+    }
+  } catch (err) {
+    console.error("Sharing failed:", err);
+    alert("Couldn't share automatically. Copy manually:");
+    prompt("Copy this link:", url);
+  }
+};
+
 
   // ♻️ Retake
   const retakeTest = () => {
